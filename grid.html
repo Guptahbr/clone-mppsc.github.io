@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mppsc.nic.in</title>
+</head>
+<style>
+    .item1 {
+        grid-area: header;
+    }
+
+    .item2 {
+        grid-area: menu;
+    }
+
+    .item3 {
+        grid-area: main;
+    }
+
+    .item4 {
+        grid-area: right;
+    }
+
+    .item5 {
+        grid-area: footer;
+    }
+
+    body {
+        background-color: rgb(248, 248, 168);
+        font-family: 'Times New Roman', Times, serif;
+
+        font-weight: bold;
+
+    }
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            'header header header'
+            'menu main right'
+            'footer footer footer';
+        grid-gap: 10px;
+        background-color: rgb(248, 248, 168);
+        padding: 10px;
+        margin: 30px 0px;
+    }
+
+    .container>div {
+
+        background-color: rgb(248, 248, 168);
+        text-align: center;
+    }
+
+    .item1 {
+        height: 120px;
+    }
+
+    .item1 img {
+        height: 100%;
+        width: 90%;
+    }
+
+    .item2 {
+        height: 500px;
+        width: 220px;
+        margin: 10px 28px;
+
+
+    }
+
+    .item3 {
+        height: 700px;
+        width: 680px;
+        margin: 10px 0px;
+    }
+
+    .item4 {
+        height: 500px;
+        width: 220px;
+        margin: 10px 28px;
+
+
+
+    }
+
+    .container-menu {
+        display: grid;
+        margin: 0px 26px;
+
+
+    }
+
+    .container-menu a,
+    .container-right a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .container-menu>div {
+        margin: 1px;
+        background-color: rgb(153, 153, 0);
+        padding: 6px 0px;
+
+    }
+
+    .cotainer-main img{
+width: 100%;
+    }
+
+    .container-right {
+        display: grid;
+        margin: 0px 26px;
+
+
+    }
+
+    .container-right>div {
+        margin: 1px;
+        padding: 6px 0px;
+        background-color: rgb(153, 153, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+    .right1 {
+        height: 80px;
+    }
+
+    .right7 {
+        height: 258px;
+        margin-top: 25px;
+    }
+
+    .note h4 {
+        color: #FF0000;
+    }
+    .note h4 a{
+        color: blue;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item1">
+            <header class="HOME">
+                <img src="mono1.jpg" alt="">
+            </header>
+        </div>
+        <div class="item2">
+            <div class="container-menu">
+                <div class="menu1"><a href="#">Home</a></div>
+                <div class="menu2"> <a href="#">About us</a> </div>
+                <div class="menu3"><a href="#">Functions</a></div>
+                <div class="menu4"><a href="#">Syllabus</a></div>
+                <div class="menu5"><a href="#">What's New</a></div>
+                <div class="menu6"><a href="#">Results</a></div>
+                <div class="menu7"><a href="#">Press News</a></div>
+                <div class="menu8"><a href="#">Download Marksheet</a></div>
+                <div class="menu9"><a href="#">Old Question Papers</a></div>
+                <div class="menu10"><a href="#">Download Formats</a></div>
+                <div class="menu11"><a href="#">Right To Information</a></div>
+                <div class="menu12"><a href="#">Annual Property Returns</a></div>
+                <div class="menu13"><a href="#">Contact us</a></div>
+                <div class="menu14"><a href="#">Download Hindi Font</a></div>
+                <div class="menu15"><a href="#">Annual Report</a></div>
+                <div class="menu16"><a href="#">Tenders</a></div>
+                <div class="menu17"><a href="#">Advertisements</a></div>
+            </div>
+        </div>
+        <div class="item3">
+            <div class="cotainer-main">
+                <img src="mppsc.jpg" alt="">
+                <div class="note">
+                    <h4><a href="">Prelims Exam Result - State Service (Pre) Examination 2020</a></h4>
+                    <h4><a href="">Prelims Exam Result - State Forest Service (Pre) Examination 2020</a></h4>
+                    
+                    
+                    <h4>"सपने होते साकार यहाँ <br>मिलता है फल मेहनत का "</h4>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="item4">
+            <div class="container-right">
+                <div class="right1"><a href="#">Online Exam (Mock Test)</a></div>
+                <div class="right2"><a href="#">Apply Online</a></div>
+                <div class="right3"><a href="#">Download - Admit card</a></div>
+                <div class="right4"><a href="#">Download - Call letter</a></div>
+                <div class="right5"><a href="#">Model Answer</a></div>
+                <div class="right6"><a href="#">Candidate response sheet & objection</a></div>
+                <div class="right7"><a href="#">State Eligibility Test -2018 <br> <br> Assistant Professor Exam<br> <br>
+                        MP Rojgar Portal <br> <br> Govt. Diary/Calendar </a></div>
+
+            </div>
+        </div>
+        <div class="item5">
+<p>Last Updated on   : 14-01-2022</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
